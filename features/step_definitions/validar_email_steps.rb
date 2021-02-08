@@ -4,7 +4,7 @@ Dado('que tenha um email disponivel') do
 end
 
 Quando('fizer um GET no serviço agenda_scheduling') do
-  @retorno = validar_email.get_validar_rate(@rated)
+  @retorno = validar_email.get_validar_email(@email)
 end
 
 Então('sistema retorna Status Code {string}') do |code|

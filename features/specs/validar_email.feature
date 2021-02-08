@@ -10,4 +10,4 @@ Funcionalidade: Validar email
   Cenário: Validar email
     Dado que tenha um email disponivel
     Quando fizer um GET no serviço agenda_scheduling
-    Então sistema retorna Status Code "401"
+    Então sistema retorna Status Code "200"
