@@ -1,2 +1,6 @@
-email: synclairscandolara@gmail.com
+email:
+  email_true: synclairscandolara@gmail.com
+  email_false: teste@teste.com
+
 rated: top_rated
+
